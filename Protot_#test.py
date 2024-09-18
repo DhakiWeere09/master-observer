@@ -155,7 +155,8 @@ def observe(target_abs):
 
 
 if __name__ == "__main__":
-    target_source = "D:\\Programming\\python\\Master_Observe\\test"
+    # The target folder structure Root
+    target_source = ".\\test"
     init_database_create(target_source)
     print("\n-------------------------------------------------------------\n")
     observe(os.path.abspath(target_source))
